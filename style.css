@@ -1,0 +1,52 @@
+#caixa {
+  height: 300px;
+  width: 300px;
+  background: red;
+  padding: 50px;
+
+  /*este elemento nao deixa o elemento que esta 
+  sobre todos aumenta e nem preciso me preucupar 
+  com o padding pois quando uso box-sizing 
+  ele me da a condição da caixa estar no mesmop tamanho 
+  sem intefir nos pixels de altura e largura que 
+  eu coloquei */
+  box-sizing: border-box;
+/*------------------------------------------------------------
+  --------------------
+  ----------------------
+  ----------------
+  ----------------------
+  -------------------
+  --------------------
+é necessario colocar alguns prefixos antes de colocar 
+este estilo arrendondado, os prefixos sao elementos 
+dos antigos browsers que faz os mesmos obedecerem 
+quando estes prefixos existem para o browser 
+verificar*/
+/*profixos para navegadores mais antigos
+
+  -webkit-border-radius:20px 90px;
+  -moz-border-radius:20px 90px; 
+  /*------------------------------------------------------------
+  --------------------
+  ----------------------
+  ----------------
+  ----------------------
+  -------------------
+  --------------------*/
+  /*vou começar a ver border radios esta propriedade é que vai 
+  fazer os arrendondamentos na minha caixa */
+  border-radius: 10px 50px 80px 100px ;
+}
+
+#caixa2 {
+  height: 300px;
+  width: 300px;
+  background: gray;
+}
+/*o padding é uma situação 
+que ele faz parte do elemento 
+quanto mais eu aumento mais o elemento, sendo a 
+caixa aumento nao fica o valor fixo
+mais quanod eu utilizo op elemento 
+*/
